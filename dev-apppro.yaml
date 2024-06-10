@@ -1,9 +1,9 @@
 apiVersion: argoproj.io/v1alpha1
 kind: AppProject
 metadata:
-  name: app2
+  name: app
   labels:
-    app: app2
+    app: app
 spec:
   # Project description
   description: Our ArgoCD Project to deploy our app locally

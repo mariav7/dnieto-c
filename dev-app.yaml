@@ -2,10 +2,10 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   labels:
-    app: app2
-  name: app2
+    app: app
+  name: app
 spec:
-  project: app2
+  project: argocd-project
   source:
     repoURL: https://github.com/mariav7/dnieto-c.git
     targetRevision: master
